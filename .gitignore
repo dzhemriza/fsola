@@ -1,0 +1,29 @@
+# GIT ignore files
+*~
+*.class
+*.war
+*.zip
+*.log
+*.tar.gz
+*.msi
+*.rpm
+*.jar
+
+# Eclipse specific
+.project
+.classpath
+.settings
+
+# Ignoring directories
+compcache
+target
+.gradle
+logs
+build
+
+# Gradle creates bin directory
+bin
+
+# IDEA
+*.iml
+.idea
